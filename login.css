@@ -1,0 +1,175 @@
+
+/* home page css */
+body{
+    background-image: url(thumb-1920-546607.jpg);
+}
+.navbar{
+ overflow: hidden;
+ background-color: #333;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a.right{
+    float: right;
+}
+
+.navbar a:hover{
+    background-color: #666;
+    color: white;
+}
+@media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }    
+
+.fa-instagram {
+    background:#E1306C;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-whatsapp{
+    background-color: #25D366;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.loginpage{
+    margin: 100px;
+    background-image: url(thumb-1920-546607.jpg);
+}
+
+
+
+.container {
+    
+    display: inline;
+    display: flex;
+    align-content: center;
+    margin: auto auto 200px auto;
+    width: 50%;
+  
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color:light transparent;
+  
+}
+img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+form label{
+   color: black;
+    display: block;
+    font-size: 20px;
+    padding: 8px;
+}
+button{
+    background-color: lightgray;
+    padding: 10px 50px 10px 50px;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: 10px auto 20px 50px;
+    
+}
+button:hover{
+    background-color: rgb(24, 154, 111);
+    border-color: black;
+}
+input{
+  border: none;
+  background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+  border-color: black;
+}
+a.forgot{
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color:lightgray;
+    margin-bottom: 10px;
+    color: rgb(1, 7, 20);
+}
+input:hover{
+    background-color:transparent;
+    border-color: black;
+}
+
+
